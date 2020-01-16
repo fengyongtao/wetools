@@ -1,0 +1,13 @@
+server:
+  port: 9011
+
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://123.56.16.67:2181
+    protocol: zookeeper
+    check: false
+  consumer:
+    check:  false
+    timeout: 3000
