@@ -13,7 +13,7 @@ mybatis:
 
 dubbo:
   application:
-    name: dubbo-provider
+    name: dubbo-server
   protocol:
     name: dubbo
     port: 20880

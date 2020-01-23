@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>store.wetools</groupId>
-	<artifactId>wetools-customer</artifactId>
+	<artifactId>wetools-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>wetools-customer</name>
+	<name>wetools-web</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -59,7 +59,31 @@
 			<artifactId>wetools-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
+		<!-- wx-tools -->
+		<dependency>
+			<groupId>com.soecode.wx-tools</groupId>
+			<artifactId>wx-tools</artifactId>
+			<version>2.1.4-RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.taobao</groupId>
+			<artifactId>sdk</artifactId>
+			<version>20200121</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/taobao-sdk-java-auto_1457166217151-20200121.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.49</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.49</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 
 	<build>

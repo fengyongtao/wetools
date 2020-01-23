@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="store.wetools.server.dao.spider.zhihu.SpiderZhihuUserDao">
+	<resultMap id="BaseResultMap" type="store.wetools.api.been.spider.zhihu.SpiderZhihuUser">
+		<result column="id" jdbcType="INTEGER" property="id"/>
+		<result column="key" jdbcType="VARCHAR" property="key"/>
+		<result column="name" jdbcType="VARCHAR" property="name"/>
+		<result column="identity" jdbcType="VARCHAR" property="identity"/>
+		<result column="location" jdbcType="VARCHAR" property="location"/>
+		<result column="profession" jdbcType="VARCHAR" property="profession"/>
+		<result column="sex" jdbcType="INTEGER" property="sex"/>
+		<result column="school" jdbcType="VARCHAR" property="school"/>
+		<result column="major" jdbcType="VARCHAR" property="major"/>
+		<result column="recommend" jdbcType="VARCHAR" property="recommend"/>
+		<result column="picUrl" jdbcType="VARCHAR" property="picurl"/>
+		<result column="agree" jdbcType="INTEGER" property="agree"/>
+		<result column="thanks" jdbcType="INTEGER" property="thanks"/>
+		<result column="ask" jdbcType="INTEGER" property="ask"/>
+		<result column="answer" jdbcType="INTEGER" property="answer"/>
+		<result column="article" jdbcType="INTEGER" property="article"/>
+		<result column="collection" jdbcType="INTEGER" property="collection"/>
+	</resultMap>
+	<sql id="Base_Column_List">
+		id, key, name, identity, location, profession, sex, school, major, recommend, picUrl, agree, thanks,
+		ask, answer, article, collection
+	</sql>
+	<!--根据主键查询记录-->
+	<select id="selectByPrimaryKey" parameterType="store.wetools.api.been.spider.zhihu.SpiderZhihuUser" resultMap="BaseResultMap">
+		SELECT
+		<include refid="Base_Column_List"/>
+		FROM spider_zhihu_user
+		WHERE
+			id = #{id, jdbcType=INTEGER}
+	</select>
+
+	<!--插入记录-->
+	<insert id="insert" parameterType="store.wetools.api.been.spider.zhihu.SpiderZhihuUser">
+		insert into spider_zhihu_user (id, key, name, identity, location, profession, sex, school, major, recommend,
+		  picUrl, agree, thanks, ask, answer, article, collection)
+		values (#{id,jdbcType=INTEGER}, #{key,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{identity,jdbcType=VARCHAR},
+		  #{location,jdbcType=VARCHAR}, #{profession,jdbcType=VARCHAR}, #{sex,jdbcType=INTEGER}, #{school,jdbcType=VARCHAR},
+		  #{major,jdbcType=VARCHAR}, #{recommend,jdbcType=VARCHAR}, #{picurl,jdbcType=VARCHAR}, #{agree,jdbcType=INTEGER},
+		  #{thanks,jdbcType=INTEGER}, #{ask,jdbcType=INTEGER}, #{answer,jdbcType=INTEGER}, #{article,jdbcType=INTEGER},
+		  #{collection,jdbcType=INTEGER})
+	</insert>
+
+</mapper>

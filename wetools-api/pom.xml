@@ -12,8 +12,8 @@
 	<artifactId>wetools-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>wetools-api</name>
-	<packaging>pom</packaging>
-	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
+	<description>api project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -41,15 +41,29 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.2.2.RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

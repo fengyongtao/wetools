@@ -1,9 +1,9 @@
 server:
-  port: 9011
+  port: 9012
 
 dubbo:
   application:
-    name: dubbo-web
+    name: dubbo-spider
   registry:
     address: zookeeper://123.56.16.67:2181
     protocol: zookeeper

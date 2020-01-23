@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="385c2059-1e48-4a53-b57c-d6388636e075" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-api/src/main/java/store/wetools/api/WetoolsApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-api/src/main/java/store/wetools/api/service/HisPriceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-api/src/main/java/store/wetools/api/service/spider/zhihu/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/dao/spider/zhihu/SpiderZhihuUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/service/impl/spider/price/HisPriceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/service/impl/spider/zhihu/SpiderZhihuUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/utils/JfreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/utils/SpiderHisPriceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/utils/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-server/src/main/resources/mapper/spider/zhihu/SpiderZhihuUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-spider/src/main/java/store/wetools/spider/factory/price/spiderHisPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-spider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/lib/taobao-sdk-java-auto_1457166217151-20200121-source.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/lib/taobao-sdk-java-auto_1457166217151-20200121.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/controller/WxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/handler/HisPriceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/matcher/HisPriceMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/utils/TkLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wetools-web/src/main/resources/wx.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-api/src/main/java/store/wetools/api/been/spider/zhihu/ZhihuUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-api/src/main/java/store/wetools/api/been/spider/zhihu/SpiderZhihuUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-api/src/main/java/store/wetools/api/service/spider/zhihu/ZhihuUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-api/src/main/java/store/wetools/api/service/spider/zhihu/SpiderZhihuUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-api/target/classes/store/wetools/api/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/WetoolsProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/WetoolsServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/target/classes/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-server/target/classes/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/target/classes/store/wetools/provider/WetoolsProviderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/target/classes/store/wetools/provider/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/target/classes/store/wetools/provider/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-server/target/test-classes/store/wetools/provider/WetoolsProviderApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-spider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-spider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-spider/src/main/java/store/wetools/spider/DmzjProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-spider/src/main/java/store/wetools/spider/factory/zhihu/ZhiHuUserPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-spider/src/main/java/store/wetools/spider/factory/zhihu/ZhiHuUserPageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-spider/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-spider/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-spider/target/classes/store/wetools/spider/DmzjProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/WetoolsCusromerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/WetoolsWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wetools-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/target/classes/store/wetools/cusromer/WetoolsCusromerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/target/classes/store/wetools/cusromer/controller/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/target/test-classes/store/wetools/cusromer/WetoolsCusromerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wetools-web/wetools-web.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wetools" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="fengyongtao &lt;326698758@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\PROJECT\wxtools\workspace\wetools\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1WBlhi8ZqBUtC0LJPhM1uutzKhL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/wetools-splder/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wetools-web/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="store.wetools.web.utils" />
+      <recent name="store.wetools.api" />
+      <recent name="" />
+      <recent name="store.wetools.api.been" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PROJECT\wxtools\workspace\wetools\wetools-web\lib" />
+      <recent name="E:\PROJECT\wxtools\workspace\wetools\wetools-web\src\main\java\store\wetools\web\controller" />
+      <recent name="E:\PROJECT\wxtools\workspace\wetools\wetools-web\src\main\resources" />
+      <recent name="E:\PROJECT\wxtools\workspace\wetools\wetools-server\src\main\resources\mapper\spider\zhihu" />
+      <recent name="E:\PROJECT\wxtools\workspace\wetools\wetools-spider\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WetoolsWebApplication">
+    <configuration name="HisPriceMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.wetools.web.matcher.HisPriceMatcher" />
+      <module name="wetools-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.wetools.web.matcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HisPriceServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.wetools.server.service.impl.spider.price.HisPriceServiceImpl" />
+      <module name="wetools-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.wetools.server.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderHisPriceUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.wetools.server.utils.SpiderHisPriceUtil" />
+      <module name="wetools-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.wetools.server.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TkLUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.wetools.web.utils.TkLUtil" />
+      <module name="wetools-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.wetools.web.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsWebApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.wetools.web.WetoolsWebApplication" />
+      <module name="wetools-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.wetools.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spiderHisPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.wetools.spider.factory.price.spiderHisPrice" />
+      <module name="wetools-spider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.wetools.spider.factory.price.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="been" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.been.BeenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.api.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.api.WetoolsApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsBeenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-been" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.been.WetoolsBeenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.common.WetoolsCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsCusromerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.web.WetoolsWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-splder" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.spider.WetoolsDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.server.WetoolsProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WetoolsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wetools-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.wetools.server.WetoolsServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TkLUtil" />
+        <item itemvalue="Application.HisPriceMatcher" />
+        <item itemvalue="Application.HisPriceServiceImpl" />
+        <item itemvalue="Application.SpiderHisPriceUtil" />
+        <item itemvalue="Application.spiderHisPrice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19384414" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="385c2059-1e48-4a53-b57c-d6388636e075" name="默认更改列表" comment="" />
+      <created>1578630989583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578630989583</updated>
+      <workItem from="1578878252766" duration="3940000" />
+      <workItem from="1578882304663" duration="3521000" />
+      <workItem from="1578891375022" duration="31292000" />
+      <workItem from="1578964723194" duration="4161000" />
+      <workItem from="1579070522634" duration="2873000" />
+      <workItem from="1579092615692" duration="5981000" />
+      <workItem from="1579161094780" duration="2156000" />
+      <workItem from="1579163484788" duration="15976000" />
+      <workItem from="1579180702538" duration="3071000" />
+      <workItem from="1579224277765" duration="4754000" />
+      <workItem from="1579229588405" duration="22213000" />
+      <workItem from="1579346092722" duration="15322000" />
+      <workItem from="1579396993708" duration="26417000" />
+      <workItem from="1579486251552" duration="9354000" />
+      <workItem from="1579576114789" duration="12230000" />
+      <workItem from="1579757056561" duration="419000" />
+      <workItem from="1579781923168" duration="1067000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始版本">
+      <created>1579173116947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579173116947</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始版本" />
+    <MESSAGE value="默认更改列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="90" key="#Notifications" timestamp="1579174177576">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="90" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1579174177576" />
+    <state x="392" y="90" key="#Project_Structure" timestamp="1578881231354">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="90" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1578881231354" />
+    <state x="254" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578922354141">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1578922354140" />
+    <state x="540" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579163046649">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="540" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1579163046649" />
+    <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1579418452082">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1579418452082" />
+    <state x="651" y="321" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579162569543">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="651" y="321" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1579162569543" />
+    <state x="380" y="87" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578878956165">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="87" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1600.860@0.0.1600.860" timestamp="1578878956165" />
+    <state x="569" y="133" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1579228880922">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="569" y="133" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1600.860@0.0.1600.860" timestamp="1579228880922" />
+    <state x="340" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579421440067">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="340" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1579421440067" />
+    <state x="577" y="295" width="446" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578965611571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="577" y="295" width="446" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1578965611571" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579351374025">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1579351374025" />
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579094545594">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1579094545594" />
+    <state x="397" y="46" key="#wetools-api_[package]" timestamp="1579227127657">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="397" y="46" key="#wetools-api_[package]/0.0.1600.860@0.0.1600.860" timestamp="1579227127657" />
+    <state x="719" y="182" width="614" height="496" key="#xdebugger.XInspectDialog" timestamp="1579253660900">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="719" y="182" width="614" height="496" key="#xdebugger.XInspectDialog/0.0.1600.860@0.0.1600.860" timestamp="1579253660900" />
+    <state x="482" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579419937851">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="482" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1579419937851" />
+    <state x="350" y="20" key="CommitChangelistDialog2" timestamp="1579757320999">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="350" y="20" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1579757320999" />
+    <state width="451" height="466" key="DebuggerActiveHint" timestamp="1579419879208">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="451" height="466" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1579419879208" />
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1579172839650">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579172839650" />
+    <state x="613" y="343" key="Github.CreateGistDialog" timestamp="1579172672605">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="613" y="343" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1579172672605" />
+    <state width="1556" height="164" key="GridCell.Tab.0.bottom" timestamp="1579598830465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="164" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579598830465" />
+    <state width="1556" height="164" key="GridCell.Tab.0.center" timestamp="1579598830465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="164" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579598830465" />
+    <state width="1556" height="164" key="GridCell.Tab.0.left" timestamp="1579598830465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="164" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579598830465" />
+    <state width="1556" height="164" key="GridCell.Tab.0.right" timestamp="1579598830465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="164" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579598830465" />
+    <state width="1556" height="210" key="GridCell.Tab.1.bottom" timestamp="1579598484877">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="210" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579598484877" />
+    <state width="1556" height="210" key="GridCell.Tab.1.center" timestamp="1579598484877">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="210" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1579598484877" />
+    <state width="1556" height="210" key="GridCell.Tab.1.left" timestamp="1579598484877">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="210" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1579598484877" />
+    <state width="1556" height="210" key="GridCell.Tab.1.right" timestamp="1579598484877">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="210" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1579598484877" />
+    <state width="1230" height="350" key="GridCell.Tab.2.bottom" timestamp="1579183804387">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1230" height="350" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579183804387" />
+    <state width="1230" height="350" key="GridCell.Tab.2.center" timestamp="1579183804387">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1230" height="350" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1579183804387" />
+    <state width="1230" height="350" key="GridCell.Tab.2.left" timestamp="1579183804387">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1230" height="350" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1579183804387" />
+    <state width="1230" height="350" key="GridCell.Tab.2.right" timestamp="1579183804387">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1230" height="350" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1579183804387" />
+    <state x="330" y="87" key="Maven.ArtifactSearchDialog" timestamp="1579584577677">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="87" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1579584577677" />
+    <state x="193" y="48" width="1162" height="738" key="SettingsEditor" timestamp="1579583672364">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="193" y="48" width="1162" height="738" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1579583672364" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1579783016594">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1579783016594" />
+    <state x="599" y="209" key="chooseDestDirectoryDialog" timestamp="1579224901180">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="599" y="209" key="chooseDestDirectoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1579224901180" />
+    <state x="492" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1579781934665">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="492" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579781934665" />
+    <state x="420" y="156" width="759" height="548" key="find.popup" timestamp="1578919638796">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="420" y="156" width="759" height="548" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1578919638796" />
+    <state x="579" y="231" key="git4idea.merge.GitMergeDialog" timestamp="1579173758126">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="231" key="git4idea.merge.GitMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1579173758126" />
+    <state x="502" y="231" key="git4idea.merge.GitPullDialog" timestamp="1579175068107">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="502" y="231" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1579175068107" />
+    <state x="611" y="307" key="git4idea.rebase.GitRebaseDialog" timestamp="1579173659397">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="307" key="git4idea.rebase.GitRebaseDialog/0.0.1600.860@0.0.1600.860" timestamp="1579173659397" />
+    <state x="275" y="218" width="1259" height="560" key="new project wizard" timestamp="1579093318741">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="275" y="218" width="1259" height="560" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1579093318741" />
+    <state x="456" y="190" width="672" height="677" key="run.anything.popup" timestamp="1579598830495">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="190" width="672" height="677" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1579598830495" />
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1579416693840">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1579416693840" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/service/impl/UserServiceImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wetools-spider/src/main/java/store/wetools/spider/factory/JsoupTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wetools-web/src/main/java/store/wetools/web/controller/GreetingController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wetools-spider/src/main/java/store/wetools/spider/WetoolsDataApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wetools-spider/src/main/java/store/wetools/spider/factory/zhihu/ZhiHuUserPageProcessor.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/jfree/jfreechart/1.0.18/jfreechart-1.0.18.jar!/org/jfree/data/general/DatasetUtilities.class</url>
+          <line>181</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wetools-server/src/main/java/store/wetools/server/service/impl/spider/price/HisPriceServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="xmlOutMsg.toXml()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

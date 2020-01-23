@@ -11,7 +11,7 @@
 	<groupId>store.wetools</groupId>
 	<artifactId>wetools-spider</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>wetools-data</name>
+	<name>wetools-spider</name>
 	<description>wetools-spider project for Spring Boot</description>
 
 	<properties>
