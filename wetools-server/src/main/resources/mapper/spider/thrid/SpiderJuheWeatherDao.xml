@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="store.wetools.server.dao.spider.thrid.SpiderJuheWeatherDao">
+	<resultMap id="BaseResultMap" type="store.wetools.api.been.spider.thrid.SpiderJuheWeather">
+		<result column="date" jdbcType="VARCHAR" property="date"/>
+		<result column="province" jdbcType="VARCHAR" property="province"/>
+		<result column="temperature" jdbcType="VARCHAR" property="temperature"/>
+		<result column="weather" jdbcType="VARCHAR" property="weather"/>
+		<result column="direct" jdbcType="VARCHAR" property="direct"/>
+		<result column="source_data" jdbcType="TEXT" property="sourceData"/>
+	</resultMap>
+	<sql id="Base_Column_List">
+		date, province, temperature, weather, direct, source_data
+	</sql>
+	<!--根据主键查询记录-->
+	<select id="selectByPrimaryKey" parameterType="store.wetools.api.been.spider.thrid.SpiderJuheWeather" resultMap="BaseResultMap">
+		SELECT
+		<include refid="Base_Column_List"/>
+		FROM spider_juhe_weather
+		WHERE
+			date = #{date, jdbcType=VARCHAR}
+			AND province = #{province, jdbcType=VARCHAR}
+	</select>
+	<!--根据主键删除记录-->
+	<delete id="deleteByPrimaryKey" parameterType="store.wetools.api.been.spider.thrid.SpiderJuheWeather">
+		DELETE FROM spider_juhe_weather
+		WHERE
+			date = #{date, jdbcType=VARCHAR}
+			AND province = #{province, jdbcType=VARCHAR}
+	</delete>
+	<!--插入记录-->
+	<insert id="insert" parameterType="store.wetools.api.been.spider.thrid.SpiderJuheWeather">
+		insert into spider_juhe_weather (date, province, temperature, weather, direct, source_data)
+		values (#{date,jdbcType=VARCHAR}, #{province,jdbcType=VARCHAR}, #{temperature,jdbcType=VARCHAR}, #{weather,jdbcType=VARCHAR},
+		  #{direct,jdbcType=VARCHAR}, #{sourceData,jdbcType=LONGVARCHAR})
+	</insert>
+	<!--插入存在值的字段-->
+	<insert id="insertSelective" parameterType="store.wetools.api.been.spider.thrid.SpiderJuheWeather">
+		insert into spider_juhe_weather
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="date != null and date != ''">
+				date,
+			</if>
+			<if test="province != null and province != ''">
+				province,
+			</if>
+			<if test="temperature != null and temperature != ''">
+				temperature,
+			</if>
+			<if test="weather != null and weather != ''">
+				weather,
+			</if>
+			<if test="direct != null and direct != ''">
+				direct,
+			</if>
+			<if test="sourceData != null and sourceData != ''">
+				source_data,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="date != null and date != ''">
+				#{date,jdbcType=VARCHAR},
+			</if>
+			<if test="province != null and province != ''">
+				#{province,jdbcType=VARCHAR},
+			</if>
+			<if test="temperature != null and temperature != ''">
+				#{temperature,jdbcType=VARCHAR},
+			</if>
+			<if test="weather != null and weather != ''">
+				#{weather,jdbcType=VARCHAR},
+			</if>
+			<if test="direct != null and direct != ''">
+				#{direct,jdbcType=VARCHAR},
+			</if>
+			<if test="sourceData != null and sourceData != ''">
+				#{sourceData,jdbcType=LONGVARCHAR},
+			</if>
+		</trim>
+	</insert>
+	<!--根据主键更新记录-->
+	<update id="updateByPrimaryKey" parameterType="store.wetools.api.been.spider.thrid.SpiderJuheWeather">
+		UPDATE spider_juhe_weather
+		SET date = #{date,jdbcType=VARCHAR},
+			province = #{province,jdbcType=VARCHAR},
+			temperature = #{temperature,jdbcType=VARCHAR},
+			weather = #{weather,jdbcType=VARCHAR},
+			direct = #{direct,jdbcType=VARCHAR},
+			source_data = #{sourceData,jdbcType=LONGVARCHAR}
+		WHERE
+			date = #{date, jdbcType=VARCHAR}
+			AND province = #{province, jdbcType=VARCHAR}
+	</update>
+	<!--根据主键更新有值的字段-->
+	<update id="updateByPrimaryKeySelective" parameterType="store.wetools.api.been.spider.thrid.SpiderJuheWeather">
+		UPDATE spider_juhe_weather
+		<set>
+			<if test="date != null and date != ''">
+				date = #{date,jdbcType=VARCHAR},
+			</if>
+			<if test="province != null and province != ''">
+				province = #{province,jdbcType=VARCHAR},
+			</if>
+			<if test="temperature != null and temperature != ''">
+				temperature = #{temperature,jdbcType=VARCHAR},
+			</if>
+			<if test="weather != null and weather != ''">
+				weather = #{weather,jdbcType=VARCHAR},
+			</if>
+			<if test="direct != null and direct != ''">
+				direct = #{direct,jdbcType=VARCHAR},
+			</if>
+			<if test="sourceData != null and sourceData != ''">
+				source_data = #{sourceData,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+		WHERE
+			date = #{date, jdbcType=VARCHAR}
+			AND province = #{province, jdbcType=VARCHAR}
+
+	</update>
+</mapper>

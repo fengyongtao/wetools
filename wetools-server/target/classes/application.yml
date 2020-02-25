@@ -23,5 +23,7 @@ dubbo:
     check: false
   provider:
     check: false
-    timeout: 30000
+    timeout: 300000
+
+
 

@@ -11,6 +11,7 @@ import store.wetools.server.dao.spider.zhihu.SpiderZhihuUserDao;
 @Component
 public class SpiderZhihuUserServiceImpl implements SpiderZhihuUserService {
 
+
     @Autowired
     private SpiderZhihuUserDao zhihuUserDao;
 
