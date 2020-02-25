@@ -5,10 +5,10 @@
     <file url="file://$PROJECT_DIR$/wetools-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetools-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetools-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wetools-data/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetools-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetools-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetools-server/src/main/resources/application.yml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wetools-spider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetools-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetools-web/src/main/java" charset="UTF-8" />
   </component>

@@ -17,7 +17,7 @@
         <module>wetools-api</module>
         <module>wetools-server</module>
         <module>wetools-web</module>
-        <module>wetools-spider</module>
+        <module>wetools-data</module>
     </modules>
 
 </project>

@@ -7,12 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wetools-spider" />
         <module name="wetools-web" />
         <module name="wetools-server" />
         <module name="wetools-api" />
         <module name="been" />
         <module name="wetools-common" />
+        <module name="wetools-data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,8 +28,8 @@
       <module name="wetools-api" options="-parameters" />
       <module name="wetools-been" options="-parameters" />
       <module name="wetools-common" options="-parameters" />
+      <module name="wetools-data" options="-parameters" />
       <module name="wetools-server" options="-parameters" />
-      <module name="wetools-spider" options="-parameters" />
       <module name="wetools-splder" options="-parameters" />
       <module name="wetools-web" options="-parameters" />
     </option>
