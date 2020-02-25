@@ -7,7 +7,7 @@ dubbo:
   registry:
     address: zookeeper://123.56.16.67:2181
     protocol: zookeeper
-    check: false
+    check: true
   consumer:
-    check:  false
+    check:  true
     timeout: 3000
