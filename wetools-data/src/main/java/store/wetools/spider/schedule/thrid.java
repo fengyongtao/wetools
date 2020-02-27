@@ -13,7 +13,8 @@ public class thrid {
     @Autowired
     private JuheWeather juheWeather;
 
-    @Scheduled(cron = "0/1 * * * * ?")
+    // 凌晨五点执行
+    @Scheduled(cron = "0 0 5 * * ? *")
     public void juheWeatherTimer() {
         for (int i = 0; i < juheWeather.provinceList.size(); i++) {
             juheWeather.doWeather(juheWeather.provinceList.get(i));

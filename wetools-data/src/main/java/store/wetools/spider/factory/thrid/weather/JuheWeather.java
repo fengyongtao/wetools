@@ -67,6 +67,7 @@ public class JuheWeather extends Weather implements IWeather {
 //        String aqi = (String) rtInfo.get("aqi"); // 空气质量指数，可能为空
 
         // 	近5天天气情况
+        String city = (String) resInfo.get("city");
         JSONArray futureArray = (JSONArray) resInfo.get("future");
         for (int i = 0; i < futureArray.size(); i++) {
             JSONObject futureInfo = (JSONObject) futureArray.get(i);
@@ -75,6 +76,7 @@ public class JuheWeather extends Weather implements IWeather {
             if (TimeUtil.getCurrentTime("yyyy-MM-dd").equals(date)) {
                 SpiderJuheWeather jw = new SpiderJuheWeather();
                 jw.setDate(date);
+                jw.setProvince(city);
                 jw.setDirect((String) futureInfo.get("direct"));
                 jw.setSourceData(data);
                 jw.setTemperature((String) futureInfo.get("temperature"));

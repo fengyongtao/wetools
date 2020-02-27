@@ -1,4 +1,4 @@
-package store.wetools.server.dao.spider.third;
+package store.wetools.server.dao.spider.thrid;
 
 import store.wetools.api.been.spider.thrid.SpiderJuheWeather;
 

@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+
 @Data
 public class SpiderJuheWeather implements Serializable {
 
@@ -21,6 +22,9 @@ public class SpiderJuheWeather implements Serializable {
 
     // 风向
     private  String direct;
+
+    // 省
+    private  String province;
 
 
 }

@@ -8,7 +8,7 @@
 		<result column="temperature" jdbcType="VARCHAR" property="temperature"/>
 		<result column="weather" jdbcType="VARCHAR" property="weather"/>
 		<result column="direct" jdbcType="VARCHAR" property="direct"/>
-		<result column="source_data" jdbcType="TEXT" property="sourceData"/>
+		<result column="source_data" jdbcType="LONGVARCHAR" property="sourceData"/>
 	</resultMap>
 	<sql id="Base_Column_List">
 		date, province, temperature, weather, direct, source_data
